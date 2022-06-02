@@ -19,7 +19,6 @@ This project is trained and evaluated on [the public IRCAD dataset.](https://www
 <img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/3.png">
 <img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/4.png">
 <img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/5.png">
-<img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/6.png">
 
 
 ### Built With
