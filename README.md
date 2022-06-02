@@ -10,7 +10,16 @@ Extraction of the blood vessel system of a liver is a challenging task in the fi
 
 This is also a *scientific research* I and Duong, a friend of mine, conducted together. Here is the link to our paper [Extraction of Liver Vessel Systems From CT-Image](https://drive.google.com/file/d/1ZSpyWUpRR0TInZEg4b-lZaciS8tsj_mM/view?usp=sharing).
 
-This project is trained and evaluated on [the public IRCAD dataset.](https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/) 
+This project is trained and evaluated on [the public IRCAD dataset.](https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/)
+
+
+### Results
+<img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/1.png">
+<img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/2.png">
+<img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/3.png">
+<img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/4.png">
+<img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/5.png">
+<img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/6.png">
 
 
 ### Built With
@@ -47,7 +56,7 @@ To get started, you should have prior knowledge on **Python** and **Tensorflow**
 
 2. Open the notebook `train.ipynb` and follow the pipeline in that notebook.
 
-3. The folder `results` is the folder of pre-saved *weights* and *predictions* that I have trained and validated. Up till now, our best Dice Score is **79.4%**.
+3. The folder `results` is the folder of pre-saved *weights* and *predictions* that I have trained and validated. Up till now, our best Dice Score is **79.6%**.
 
 4. Enjoy!
 
