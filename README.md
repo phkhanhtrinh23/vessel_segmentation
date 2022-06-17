@@ -6,14 +6,15 @@
 
 ### Introduction
 
-Extraction of the blood vessel system of a liver is a challenging task in the field of medical image processing. Normally, doctors must examine each slice manually to achieve accurate vessel segmentation. Our solution is called Extraction of Liver Vessel Systems From CT-Image, an automatic vessel segmentation. 
+Extraction of the blood vessel system of a liver is a challenging task in the field of medical image processing. Normally, doctors must examine each slice manually to achieve accurate vessel segmentation. Our solution is called Extraction of Liver Vessel Systems From CT-Image, an automatic vessel segmentation.
 
-This is also a scientific research I and Duong, a friend of mine, conducted together. Here is the link to our paper [Extraction of Liver Vessel Systems From CT-Image](https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/paper/SVOISP-2021-KH&KTMT-125.pdf).
+This is also a scientific research I and Duong, a friend of mine, conducted together. Our proposed model is called: **MultiResDenseUNet**. Here is the link to our paper [Extraction of Liver Vessel Systems From CT-Image](https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/paper/SVOISP-2021-KH&KTMT-125.pdf).
 
 This project is trained and evaluated on [the public IRCAD dataset.](https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/)
 
 
 ### Results
+In order: Original Input, Groundtruth, Prediction, and Intersection (Red is Difference and Green is Similarity)
 <img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/1.png">
 <img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/2.png">
 <img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/3.png">
@@ -55,7 +56,7 @@ To get started, you should have prior knowledge on **Python** and **Tensorflow**
 
 2. Open the notebook `train.ipynb` and follow the pipeline in that notebook.
 
-3. The folder `results` is the folder of pre-saved *weights* and *predictions* that I have trained and validated. Up till now, our best Dice Score is **79.6%**.
+3. The folder `results` is the folder of pre-saved *weights* and *predictions* that I have trained and validated. Up till now, our best Dice Score is **79.4%**.
 
 4. Enjoy!
 
