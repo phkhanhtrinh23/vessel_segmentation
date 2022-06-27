@@ -148,7 +148,7 @@ def ResPath(filters, length, inp):
     return out
 
 
-def OurMultiResUNet(height, width, n_channels):
+def MultiResDenseUNet(height, width, n_channels):
     '''
     MultiResUNet
     

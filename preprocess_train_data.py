@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Trinh Pham <phkhanhtrinh23@gmail.com>
+"""
+
 import numpy as np
 import pydicom
 import os
