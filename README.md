@@ -14,7 +14,7 @@ This project is trained and evaluated on [the public IRCAD dataset.](https://www
 
 
 ### Results
-In order: Original Input, Groundtruth, Prediction, and Intersection (Red is Difference and Green is Similarity)
+From left to right: Original Input, Groundtruth, Prediction, and Intersection (Red is Difference and Green is Similarity)
 <img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/1.png">
 <img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/2.png">
 <img src="https://github.com/phkhanhtrinh23/vessel_segmentation/blob/main/images/3.png">
